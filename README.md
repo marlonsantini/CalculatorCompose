@@ -4,8 +4,7 @@
   <a href="https://opensource.org/licenses/Apache-2.0"><img alt="License" src="https://img.shields.io/badge/License-Apache%202.0-blue.svg"/></a>
   <a href="https://android-arsenal.com/api?level=26"><img alt="API" src="https://img.shields.io/badge/API-26%2B-brightgreen.svg?style=flat"/></a>
   <a href="https://kotlinlang.org"><img alt="Kotlin" src="https://img.shields.io/badge/Kotlin-1.8.xx-blue"/></a>
-  <img alt="MVVM" src="https://img.shields.io/badge/MVVM-Architecture-orange"/>
-  <a href="https://developer.android.com/kotlin/coroutines"><img alt="Coroutines" src="https://img.shields.io/badge/Coroutines-Asynchronous-red"/></a>
+  <img alt="MVVM" src="https://img.shields.io/badge/Jetpack Compose-Interface-orange"/>
 </p>
 
 <p align="center">
@@ -21,10 +20,6 @@ This is a simple calculator developed using the Jetpack Compose library for Andr
 - [Kotlin](https://kotlinlang.org/)
 - [JetPack Compose](https://developer.android.com/jetpack/compose)
 
-## Architecture
-OverGuide is Multi-modular application with a meaningful separation for layers and features with the necessary grouping.
-With MVVM architecture with an additional Domain layer for each module by itself.
-
 Modules Design:
 - App
   - Ui.theme
@@ -32,12 +27,12 @@ Modules Design:
     - Shape
     - Theme
     - Type
-  - CalculatorAction
-  - CalculatorButton
-  - CalculatorOperation
-  - CalculatorState
-  - CalculatorViewModel
-  - MainActivity
+   - CalculatorAction
+   - CalculatorButton
+   - CalculatorOperation
+   - CalculatorState
+   - CalculatorViewModel
+   - MainActivity
 
 # License
 ```xml
